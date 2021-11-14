@@ -1,0 +1,116 @@
+/* Tela de dispositivos mobile  largura até 600px */
+@media only screen and (max-width: 600px) {
+
+  .listaStylo {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+  }
+  .card{
+    display: flex;
+    flex: 1;
+    margin-right:1%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .acabamentoButton{
+    height: 40px;
+    color: black;
+    font-weight:bold;
+    border-style: solid;
+  }
+
+
+}
+
+/* Tela de Tablets na vertical  largura com no mínimo  600px */
+@media only screen and (min-width: 600px) {
+
+  .listaStylo {
+    display: grid;
+   grid-template-columns: 50% 50% ;
+  }
+  .card{
+    display: flex;
+    flex: 1;
+    margin-right:1%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .acabamentoButton{
+    height: 40px;
+    color: black;
+    font-weight:bold;
+    border-style: solid;
+  }
+  .detalhamedo{
+    visibility: hidden;
+  }
+}
+
+/* Tela de Tablets na horizontal  768px   */
+@media only screen and (min-width: 768px) {
+  .listaStylo {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+  }
+  .card{
+    display: flex;
+    flex: 1;
+    margin-right:1%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .acabamentoButton{
+    height: 40px;
+    color: black;
+    font-weight:bold;
+    border-style: solid;
+  }
+
+}
+
+/* Tela de PC com no mínimo  992px */
+@media only screen and (min-width: 992px) {
+  .listaStylo {
+    display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .card{
+    display: flex;
+    flex: 1;
+    margin-right:1%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .acabamentoButton{
+    height: 40px;
+    color: black;
+    font-weight:bold;
+    border-style: solid;
+  }
+
+  
+
+}
+
+/* Telas Largas  */
+@media only screen and (min-width: 1200px) {
+  .listaStylo {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .card{
+    display: flex;
+    flex: 1;
+    margin-right:1%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .detalhamedo{
+    visibility: visible;
+  }
+  .acabamentoButton{
+    visibility: hidden;
+  }
+}

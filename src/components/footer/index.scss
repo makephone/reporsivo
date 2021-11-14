@@ -1,0 +1,77 @@
+
+/* Tela de dispositivos mobile  largura até 600px */
+@media only screen and (max-width: 600px) {
+    .alinhamento{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+		align-items: center;
+    }
+	.t{
+        margin-top: 5px;
+       width: 250px;
+       color: black;
+       border-style: solid;
+       border-color: black;
+       }
+}
+
+/* Tela de Tablets na vertical  largura com no mínimo  600px */
+@media only screen and (min-width: 600px) {
+    .alinhamento{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+		align-items: center;
+    }
+	.t{
+        margin-top: 5px;
+       width: 250px;
+       color: black;
+       border-style: solid;
+       border-color: black;
+       }
+}
+
+/* Tela de Tablets na horizontal  768px   */
+@media only screen and (min-width: 768px) {
+    .alinhamento{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+		align-items: center;
+    }
+	.t{
+       margin-top: 5px;
+       width: 250px;
+       color: black;
+       border-style: solid;
+       border-color: black;
+       }
+}
+
+/* Tela de PC com no mínimo  992px */
+@media only screen and (min-width: 992px) {
+    .alinhamento{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+    }
+}
+
+
+/* Telas Largas  */
+@media only screen and (min-width: 1200px) {
+    .alinhamento{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+    }
+    .t{
+        margin-top: 5px;
+       width: 250px;
+       color: black;
+       border-style: solid;
+       border-color: black;
+       }
+}
