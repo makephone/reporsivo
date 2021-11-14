@@ -19,7 +19,7 @@ function ListaProdutos(props:Listagem){
                 
             </div>
             <p>{String(p.title).substring(0,20)}</p>
-            <p className="text-darken-2 red-text " >{String(p.description)}</p>
+            <p className="text-darken-2 red-text " >R${String(p.description)}</p>
             <p className="text-darken-2 detalhamedo" >{p.price}</p>
             <div className="waves-effect waves-light btn grey lighten-5 acabamentoButton">Comprar</div>
         </div>
